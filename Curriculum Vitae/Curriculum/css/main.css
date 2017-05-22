@@ -1,0 +1,879 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+ul li.space {
+
+max-width: 1920px;
+min-width: 724px;
+
+}
+
+
+table
+{
+    border-collapse: collapse;
+
+}
+
+td {
+
+padding-right: 40px;
+
+}
+
+
+
+tr {
+
+}
+
+.first {
+
+color: #7d585e;
+font-size: 14px;
+font-weight: bold;
+padding-top: 10px;
+padding-left: 10px;
+
+}
+
+.second {
+
+  color: #7d585e;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 10px;
+
+}
+
+.three {
+
+  color: #7d7f84;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+}
+
+.four {
+
+  color: #7d7f84;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+
+hr {
+
+
+
+}
+
+.hr-first {
+
+      height: 1px;
+      background-color: #7d585e;
+      border: 1px solid #835e5d;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 15px;
+      box-shadow: 0px 0px 1px #7d585e;
+      width: 695px;
+
+}
+
+.hr-second {
+
+
+  height: 1px;
+      background-color: #7d585e;
+      border: 1px solid #835e5d;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 15px;
+      box-shadow: 0px 0px 1px #7d585e;
+      width: 510px;
+
+
+}
+
+
+
+tbody {
+
+  box-shadow: 0px 0px 4px #7d585e;
+  border-radius: 9px;
+
+}
+
+.bordure_verticale {
+
+height: 200px;
+padding-right: 60px;
+border-right: 1px solid blue;
+
+}
+
+
+
+
+
+
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+* {
+
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+
+.header {
+
+
+
+}
+
+.top-left {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+
+}
+
+.float-left-content {
+
+  margin-left: 5px;
+  padding-top: 200px;
+
+
+}
+
+.float-left-about-us {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+
+
+}
+
+.first-letter {
+
+    color: #312a2a;
+
+}
+.float-left {
+
+  padding: 20px 0 100% 0;
+  float: left;
+  background-color: #e9e0d0;
+  position: fixed;
+  border-left: 20px solid #7d585e;
+  border-right: 6px double #bdb6a9;
+
+}
+
+.float-left-title {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align:center;
+    color: rgb(190, 190, 190);
+}
+
+.content {
+
+    margin-left: 310px;
+
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  margin-top: -5px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)), url(../img/d54d9e87.png);
+
+}
+
+h3 {
+
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.surname {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(124, 94, 88);
+    margin: 0;
+
+
+}
+
+.name {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align:center;
+    color: rgb(124, 94, 88);
+    margin: 0 0 15px 0;
+
+
+}
+
+ul {
+
+    list-style:none;
+    margin-left:10px;
+    padding-left:0;
+
+}
+
+.title {
+
+    color:#7d7f84;
+    padding-top: 10px;
+    text-transform: uppercase;
+
+
+}
+
+.border-right {
+
+    border-right: 3px solid #7d585e;
+
+}
+
+
+.span-contact-me {
+
+    margin-left: 10px;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+ul.contact-me li img {
+
+    border-right: 1px solid #7d585e;
+    padding-right: 10px;
+    /* margin-top: 10px; */
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+
+ul.contact-me li {
+
+    margin: 7px 0;
+
+}
+
+.title h3, h3, h3 {
+
+
+}
+
+
+
+
+.span-contact-me-break-2 {
+
+    display: block;
+    color: #7d7f84;
+    font-size: 12px;
+
+}
+
+
+
+.space {
+
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
+
+.avatar {
+    border-radius: 50%;
+    border: 6px double #7d585e;
+
+}
+
+@-webkit-keyframes progress-animation
+{
+    from {background-position: 0 0;}
+    to {background-position: 40px 0;}
+}
+
+/* Animation for Firefox*/
+@-moz-keyframes progress-animation
+{
+    from {background-position: 0 0;}
+    to {background-position: 40px 0;}
+}
+
+@keyframes progress-animation
+{
+    from {background-position: 0 0;}
+    to {background-position: 40px 0;}
+}
+
+.title-contact-me {
+
+color: #7d7f84;
+text-transform: uppercase;
+text-align: center;
+box-shadow: -10px 0px 1px rgba(0, 0, 0, 0.19);
+margin-left: 10px;
+
+}
+
+
+
+.p-contact-me {
+
+    text-align: justify;
+    font-size: 14px;
+
+}
+
+.progress {
+
+
+    background-image: -moz-linear-gradient(center top , #F4F4F4, #F8F8F8);
+    background-image: linear-gradient(center top , #F4F4F4, #F8F8F8);
+    background-image: -webkit-linear-gradient(center top , #F4F4F4, #F8F8F8);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
+    background-image: -ms-linear-gradient(center top , #F4F4F4, #F8F8F8);
+    background-image: -o-linear-gradient(center top , #F4F4F4, #F8F8F8);
+
+    background-repeat: repeat-y;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+
+    height: 200px;
+    margin-bottom: 19px;
+    overflow: hidden;
+
+
+}
+
+/* Speed class */
+.noanimation {
+    -webkit-animation: progress-animation 0s linear infinite;
+    -moz-animation: progress-animation 0s linear infinite;
+    animation: progress-animation 0s linear infinite;
+}
+.veryslow {
+    -webkit-animation: progress-animation 3.5s linear infinite;
+    -moz-animation: progress-animation 3.5s linear infinite;
+    animation: progress-animation 3.5s linear infinite;
+}
+.slow {
+    -webkit-animation: progress-animation 2.8s linear infinite;
+    -moz-animation: progress-animation 2.8s linear infinite;
+    animation: progress-animation 2.8s linear infinite;
+}
+
+.bar {
+    border: 1px solid black;
+    margin-right: 20px;
+    background-color: #cec1ae;
+    width: 25px;
+    height: 200px;
+
+    -webkit-animation: progress-animation 2s linear infinite;
+    -moz-animation: progress-animation 2s linear infinite;
+    animation: progress-animation 2s linear infinite;
+
+    display: inline-block;
+
+    background-repeat: repeat;
+    background-size: 40px 40px;
+
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(-90deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -ms-linear-gradient(-90deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(-90deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+
+    -webkit-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-transition: width 0.6s ease;
+    -moz-transition: width 0.6s ease;
+    -ms-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+
+
+}
+
+.bar-content {
+
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(90deg);
+    margin: 100px 0 0 -90px;
+    width: 200px;
+    display: block;
+    font-size: 12px;
+    color: rgb(219, 218, 218);
+    /* font-weight: bold; */
+
+
+
+
+}
+
+.bar-complete{
+
+
+    margin-right: 20px;
+    border: 1px solid black;
+    background-color: #FFF;
+    width: 25px;
+    height: 200px;
+    -webkit-animation: progress-animation 2s linear infinite;
+    -moz-animation: progress-animation 2s linear infinite;
+    animation: progress-animation 2s linear infinite;
+    display: inline-block;
+    background-repeat: repeat;
+    background-size: 40px 40px;
+
+
+    -webkit-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: width 0.6s ease;
+    -moz-transition: width 0.6s ease;
+    -ms-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+
+
+
+}
+
+.bar-putty {
+
+    background-color: rgb(125, 88, 94);
+
+    margin-right: 20px;
+
+
+    width: 23px;
+    height: 200px;
+
+    display: inline-block;
+    background-repeat: repeat;
+    background-size: 40px 40px;
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    -webkit-animation: progress-animation 3.5s linear infinite;
+    -moz-animation: progress-animation 3.5s linear infinite;
+    animation: progress-animation 3.5s linear infinite;
+
+    -webkit-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: width 0.6s ease;
+    -moz-transition: width 0.6s ease;
+    -ms-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3.title img {
+
+    padding-right: 8px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+<?php include('head.inc.php'); ?>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dévelo'Pont - Simplon.co</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+
+      <?php include('navbar.inc.php'); ?>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="logo.png">
+        </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="hvr-fade-green"><a href="#">À propos</a></li>
+            <li class="hvr-fade-green"><a href="partenaires.html">Nos partenaires</a></li>
+            <li class="hvr-fade-green"><a href="#contact-us">Contactez-nous</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hvr-fade-green"><a href="#inscription">Inscription</a></li>
+            <li class="hvr-fade-green"><a href="#login">Login <img src="img/login.png" alt="login.png"></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+<article>
+
+<?php include('main-article.inc.php'); ?>
+<div id="test"><img class ="logo" src="img/logo-developont.png" alt="">
+
+  <p class="test1">Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
+  <p class="test1">Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :</p>
+
+<ul class="test2">
+<li class="test2">Économique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne,</li>
+<li class="test2">Social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la base de critères sociaux et de leur motivation, et non selon les diplômes.</li>
+</ul>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSenLtbsaeAnpq0Bsz-pqR9B6g4MaR2SNCqotWkqioidjpKXNA/viewform" class="pre-fade preregister hvr-fade-blue">Pré-inscription</a>
+
+<a href="http://simplon.co/pont-en-royans/" class="pre-fade preregister hvr-fade-blue">En savoir plus</a>
+
+</div>
+
+</article>
+
+<?php include('form.inc.php'); ?>
+
+<div class="overlay" id="contact-us">
+
+<form>
+      <div>
+      <img class ="logo-formulaire" src="img/logo-developont.png" alt="">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="user_name">
+      </div>
+
+      <div>
+        <label for="courriel">Courriel</label>
+        <input type="email" id="courriel" name="user_email">
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="user_message"></textarea>
+      </div>
+     
+      <div class="button">
+        <button type ="close"><a href="#close">Fermer le formulaire</a></button>
+        <button type="submit">Envoyer votre message</button>
+      </div>
+  </form>
+
+</div>
+
+<div class="overlay" id="inscription">
+
+<form>
+      <div>
+      <img class ="logo-formulaire" src="img/logo-developont.png" alt="">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="user_name">
+      </div>
+
+    <div>
+        <label for="prénom">Prénom</label>
+        <input type="text" id="prénom" name="user_surname">
+      </div>
+
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="user_email">
+      </div>
+
+      <div>
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="user_password">
+      </div>
+
+    <div>
+        <label for="password">Confirmation</label>
+        <input type="password" id="password" name="user_password">
+      </div>
+
+      <div class="button">
+        <button type ="close"><a href="#close">Fermer</a></button>
+        <button type="submit">S'inscrire</button>
+      </div>
+  </form>
+
+</div>
+
+<div class="overlay" id="login">
+
+<form>
+      <div>
+      <img class ="logo-formulaire" src="img/logo-developont.png" alt="logo">
+        <label for="pseudo">Pseudonyme</label>
+        <input type="text" id="pseudo" name="pseudo">
+      </div>
+
+    <div>
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="user_password">
+      </div>
+
+      <div class="button">
+        <button type ="close"><a href="#close">Fermer</a></button>
+        <button type="submit">Connexion</button>
+      </div>
+  </form>
+
+</div>
+
+  <footer>
+
+    <?php include('footer.inc.php'); ?>
+
+  </footer>
+  </body>
+</html>
